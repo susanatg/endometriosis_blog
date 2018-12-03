@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About me</title>
+<title>Storres about my travels</title>
+<meta name="viewport" descriptioncontent="width=device-width, initial-scaled=1">
+<meta charset="utf-8">
+<meta name="description" content="Adventure Travel blog">
+<meta name="keywords" content="travelling, travel, culture, discover, wanderlust">
+<meta name="author" content="Susana Torres">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scaled=1">
-<script
+<script>
   src="http://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
@@ -13,10 +17,25 @@
 </head>
 
 <body>
-  <header>
-  <a href="./index.html"><img src ="TO DO"></a>
-  <a href="./about_me.html">About Me</a>
-  </header>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+            <li class="active"><a href="./index.html">Storres Blog</a></li>
+        <li><a href="./index.html">Home</a></li>
+      <li><a href="./about_me.html">About Me</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="row">
+    <div class="col-md-1"><a href="./index.html">Home</a></div>
+      <div class="col-md-1"><a href="./about_me.html">About Me</a></div>
+  </div>
+
+  <div>
+    <img id="aboutmeimage" src="./images/about-me/me.jpg" class="img-circle" alt="This is me">
+  </div>
 <div>
   <h1>About me</h1>
   <p>Hi! I am Susana.</p>
@@ -42,7 +61,19 @@
         However, this wasn't enought and I decide to learn a bit of coding to create my own blog and who know... became a full time developer one day?.</p>
   </div>
 
-<script src='js/script.js'></script>
-</body>
+  <footer>
+  <div class="footer">
+    <p>This website belong to Susana Torres.</p>
+      <div id='social-buttons'>
+      <button class='btn btn-default btn-lg btn-twitter'><a href="xxxxx">Twitter</a></button>
+      <button class='btn btn-default btn-lg btn-facebook'><a href="xxx">Facebook</a></button>
+      <button class='btn btn-default btn-lg btn-instagram'><a href="xxxx">Pinterest</a></button>
+    </div>
+  </div>
+  </footer>
 
-</html>
+
+  <script src='js/script.js'></script>
+  </body>
+
+  </html>
