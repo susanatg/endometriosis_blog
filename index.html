@@ -14,8 +14,8 @@
 </head>
 
 <body>
-  <!-- fix navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+  <!-- fix navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-lightp">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
             <li class="active"><a href="./index.html">Storres Blog</a></li>
@@ -25,20 +25,23 @@
     </ul>
   </div>
 </nav>
-
-<!-- header -->
-<header>This is the header<img id="headerimage" src ="./images/index/pic4.jpg"></header>
-
+  <!-- fix header-->
+<div class="container">
+<header><img id="logo" src="./images/logo.png" alt="logo"></header>
+</div>
+<div></div>
 <!-- Welcome message -->
-<div class="container-fluid">
+
+<div>
   <h1>Welcome<h1>
     <p>Welcome to my personal blog. Thank you very much for pass by! Everyone that appeared in my blog is people I have met through my travels and I would like to you meet them.
   They have inspired me and I would like you to know why.</p>
 </div>
-<div></div>
+</div>
 
 <!-- Carousel -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="col-sm-3">
+  "<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -50,34 +53,33 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="./images/index/pic1.jpg" alt="Chania">
+      <img src="./images/carousel/islandia1.jpg" alt="Island">
       <div class="carousel-caption">
-        <h3>Chania</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <h3>Island</h3>
+        <p>Beautiful scenary in Island.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="./images/carousel/islandia2.jpg" alt="Exterior">
+      <div class="carousel-caption">
+        <h3>Atmosphere</h3>
+        <p>The atmosphere in Island is breathtaking.</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="./images/index/pic1.jpg" alt="Chania">
+      <img src="./images/carousel/islandia3.jpg" alt="Landscape">
       <div class="carousel-caption">
-        <h3>Chania</h3>
-        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        <h3>Fresh air</h3>
+        <p>You can feel the fresh air.</p>
       </div>
     </div>
 
     <div class="item">
-      <img src="./images/index/pic1.jpg" alt="Flower">
+      <img src="./images/carousel/islandia4.jpg" alt="Beautiful">
       <div class="carousel-caption">
-        <h3>Flowers</h3>
-        <p>Beautiful flowers in Kolymbari, Crete.</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/" alt="Flower">
-      <div class="carousel-caption">
-        <h3>Flowers</h3>
-        <p>Beautiful flowers in Kolymbari, Crete.</p>
+        <h3>Time</h3>
+        <p>It seems that time haven't pass by.</p>
       </div>
     </div>
   </div>
@@ -91,6 +93,7 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
 
 <div class="container-fluid">
