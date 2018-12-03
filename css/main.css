@@ -12,12 +12,22 @@
   height: 400px;
 }
 
-#aboutmeimage
-{
-  width: 400px;
-  height: 400px;
+#about_me{
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
+#aboutmeimage
+{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.mylife{
+  margin-left: 40px;
+  margin-top: 40px;
+}
 header {
   text-align: center;
 }
